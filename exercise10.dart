@@ -3,16 +3,7 @@
 import 'dart:math';
 
 void main () {
-
-  
-  /* var numbers = [1,2,3,4,5];
-
-  for (var e in numbers) {
-    print('$e isPrime = ${isPrime(e)} | isPrimeRecursive = ${isPrimeRecursive(e)}');
-  }
-  */
-
-  int num = Random().nextInt(10000);
+ int num = Random().nextInt(10000);
 
  Stopwatch stopwatch = new Stopwatch()..start();
   print('${num}, is prime = ${isPrime(num)}');
