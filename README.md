@@ -1001,6 +1001,8 @@ Use the Dart random library for picking a random word.
 
 <details>
 <summary>Solution</summary>
+
+``` dart
 import 'dart:io';
 import 'dart:math';
 
@@ -1020,6 +1022,7 @@ String randomWord(String txt) {
   String word = wordList[random.nextInt(wordList.length)];
   return word;
 }
+```
 </details>
 
 ### Exercise 24
