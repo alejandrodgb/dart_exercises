@@ -999,7 +999,8 @@ Download this file and save it in the same directory as your Dart code. Each lin
 
 Use the Dart random library for picking a random word.
 
-Solution
+<details>
+<summary>Solution</summary>
 import 'dart:io';
 import 'dart:math';
 
@@ -1019,6 +1020,7 @@ String randomWord(String txt) {
   String word = wordList[random.nextInt(wordList.length)];
   return word;
 }
+</details>
 
 ### Exercise 24
 In the game of Hangman, a clue word is given by the program that the player has to guess, letter by letter. The player guesses one letter at a time until the entire word has been guessed. (In the actual game, the player can only guess 6 letters incorrectly before losing).
