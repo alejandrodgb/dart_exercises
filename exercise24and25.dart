@@ -21,7 +21,7 @@ void main () {
   
   // Show the number of letters to the user
   String board = '_ ' * word.length;  
-  print('Guess the word.\n$board | $word');
+  print('Guess the word.\n$board');
 
   int remainingToGuess = word.length;
 
@@ -77,7 +77,7 @@ void main () {
     }
 
     if (hangmanFails>=6) {
-      print('You have been hanged. Game Over.');
+      print('You have been hanged. Game Over. The word was $word.');
       break;
     }
   }
